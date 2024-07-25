@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <script src="signin.js" defer></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <form action="admin.html">
+        <!-- <p class="logo" style="">Food <b style="color:#06C167; ">Donate</b></p> -->
+            <span class="title">Register</span>
+            <br>
+            <br>
+            <div class="input-group">
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username" />
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                    <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+                        
+                    </div>
+            <label class="textlabel" for="password">Password</label> 
+             <div class="password">
+              
+                <input type="password" name="password" id="password"  />
+                <i class="uil uil-eye-slash showHidePw" id="showpassword"></i>                
+             </div>
+            <div class="input-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" id="address" /></textarea>
+                    </div>
+            <div class="input-field">
+                        <select id="district" name="district" style="padding:10px; padding-left: 20px;">
+                          <option value="chennai">Chennai</option>
+                          <option value="kancheepuram">Kancheepuram</option>
+                          <option value="thiruvallur">Thiruvallur</option>
+                          <option value="vellore">Vellore</option>
+                          <option value="tiruvannamalai">Tiruvannamalai</option>
+                          <option value="tiruvallur">Tiruvallur</option>
+                          <option value="tiruppur">Tiruppur</option>
+                          <option value="coimbatore">Coimbatore</option>
+                          <option value="erode">Erode</option>
+                          <option value="salem">Salem</option>
+                          <option value="namakkal">Namakkal</option>
+                          <option value="tiruchirappalli">Tiruchirappalli</option>
+                          <option value="thanjavur">Thanjavur</option>
+                          <option value="pudukkottai">Pudukkottai</option>
+                          <option value="karur">Karur</option>
+                          <option value="ariyalur">Ariyalur</option>
+                          <option value="perambalur">Perambalur</option>
+                          <option value="madurai" selected>Madurai</option>
+                          <option value="virudhunagar">Virudhunagar</option>
+                          <option value="dindigul">Dindigul</option>
+                          <option value="ramanathapuram">Ramanathapuram</option>
+                          <option value="sivaganga">Sivaganga</option>
+                          <option value="thoothukkudi">Thoothukkudi</option>
+                          <option value="tirunelveli">Tirunelveli</option>
+                          <option value="tiruppur">Tiruppur</option>
+                          <option value="tenkasi">Tenkasi</option>
+                          <option value="kanniyakumari">Kanniyakumari</option>
+                        </select> 
+                          </div>
+                <button type="submit" name="sign">Register</button>
+                    <span class="text">Already a member?
+                        <a href="signin.html" class="text login-link">Login Now</a>
+                    </span>
+                </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <script src="login.js" ></script>
+</body>
+</html>
